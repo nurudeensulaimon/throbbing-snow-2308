@@ -1,0 +1,10 @@
+<h1> Airline Show Page</h1>
+
+<% @airline.flights do |flight| %>
+<% flight.passengers.each do |passenger| %>
+<p>Passenger name: <%= passenger.name %>
+
+<section id="adult passenger">
+<p> Adult Passenger: passenger.adult_passenger</p>
+</p> Unique Passnger: passenger.unique_passenger</p>
+</section>
